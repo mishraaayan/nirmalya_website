@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #ff9900; /* Saffron */
+    background-color: #FF0000; /* Red */
     padding: 1rem;
 }
 
@@ -23,14 +23,14 @@ nav a {
 }
 
 .hero {
-    background-color: #0066cc; /* Deep Blue */
-    color: white;
+    background-color: #FFD700; /* Yellow */
+    color: #000000; /* Black */
     text-align: center;
     padding: 2rem;
 }
 
 button {
-    background-color: #008000; /* Green */
+    background-color: #0000FF; /* Blue */
     color: white;
     border: none;
     padding: 1rem;
@@ -43,7 +43,8 @@ section {
 }
 
 footer {
-    background-color: #ffcc00; /* Vibrant Yellow */
+    background-color: #008000; /* Green */
     text-align: center;
     padding: 1rem;
+    color: white;
 }
