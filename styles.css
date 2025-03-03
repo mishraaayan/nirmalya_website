@@ -8,18 +8,33 @@ body {
 header {
     background-color: #FF0000; /* Red */
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 1rem;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    flex-grow: 1;
 }
 
 nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    margin: 0 1rem;
 }
 
 .hero {
